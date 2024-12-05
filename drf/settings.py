@@ -86,8 +86,12 @@ WSGI_APPLICATION = 'drf.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql', 
+        'NAME': 'crkimtvaomrwvqhk', 
+        'USER': 'xpq5i3y4gs0j44ko', 
+        'PASSWORD': 'k76opu428hz8fz1v', 
+        'HOST': 'izm96dhhnwr2ieg0.cbetxkdyhwsb.us-east-1.rds.amazonaws.com', # URL de base de datos MySQL 
+        'PORT': '3306',
     }
 }
 
