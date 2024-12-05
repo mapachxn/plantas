@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure--g5rju-cw_@2w0f)%zzzful!q4_$w!hmet#6o+e^=(=77a54y=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['herboadan-b1800f8e16ba.herokuapp.com']
 
 CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:8000",
